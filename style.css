@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+}
+.navigation{
+    background-color: rgb(13, 65, 110);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+.parent-card {
+    /* border:1px solid red; */
+    background-image: url('https://www.livwatches.com/cdn/shop/files/home-desktop-gxaac-orange-leather.jpg?v=1705069709&width=5000');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    
+}
+
+.card-body{
+    
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.card-body> h1 {
+    text-transform: uppercase;
+}
+.card-body> p {
+    text-transform: capitalize;
+}
+
+.logo-list {
+   background-color: rgb(146, 150, 153);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1%;
+    
+}
+
+.prod-list{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5% ;
+    margin-bottom: 5%;
+    
+}
+
+.logo-list > img{
+   
+   border-radius: 50%;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 
+}
+
+/* houni na7it l flex w jarebt les positions :)  ça marche bien aussi et responsive*/
+.card-product {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    color: white;
+    position: relative;
+    background-color: rgb(13, 65, 110);
+}
+
+
+
+.for-client {
+    position: absolute;
+    top:20px;
+    left: 5rem; 
+}
+
+.footer{
+    background-color: rgb(13, 65, 110);
+    color: white; 
+    display: flex;
+    justify-content: center;
+   padding: 20px;
+}
